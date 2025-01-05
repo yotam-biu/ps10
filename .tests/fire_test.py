@@ -3,8 +3,8 @@ from spread_fire import spread_fire
 
 def test_fire():
   
-  # with open('.tests/initial_state.json', 'r') as f:
-  #     grid = json.load(f)
+  with open('.tests/initial_state.json', 'r') as f:
+      grid = json.load(f)
   
   # with open('.tests/final_state.json', 'r') as f:
   #     final_grid = json.load(f)
