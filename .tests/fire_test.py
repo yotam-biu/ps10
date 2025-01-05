@@ -1,5 +1,5 @@
 import json
-from spread_fire import spred_fire
+from spread_fire import spread_fire
 
 def test_fire():
   
