@@ -3,7 +3,7 @@ def spread_fire(grid):
     grid_size_y = len(grid)
     grid_size_x = len(grid[0])
     
-    update_grid = [[grid[i][j] for j in range(grid_size)] for i in range(grid_size)]
+    update_grid = [[grid[i][j] for j in range(grid_size_x)] for i in range(grid_size_y)]
     for i in range(grid_size_y-1):      
         for j in range(grid_size_x-1):
             if grid[i][j] == 1:
